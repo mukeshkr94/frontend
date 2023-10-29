@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* table */
+
+/* table */
+
+table{
+  text-align: center;
+  border-collapse: collapse;
+}
+th{
+  background: rgb(254, 238, 238);
+}
+td, th{
+  width: 300px;
+  border: 1px solid pink;
+}
+
+/* login form */
+.container{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+form{
+  background-color: #fde6e6;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 8px 8px gray;
+}
+.input-div >input{
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 7px;
+  border: 1px solid deeppink;
+  outline: none;
+  box-sizing: border-box;
+}
+#sbtbtn{
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 7px;
+  border: 1px solid #ff1f6a;
+  background: linear-gradient(45deg, #fb0202, #ed0268);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
